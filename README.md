@@ -1,4 +1,4 @@
-# PT/OS
+# PT/OS - Plain Text Operating System
 
 Your personal AI operating framework in plain text. As simple as it gets.
 
