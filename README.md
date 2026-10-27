@@ -9,10 +9,10 @@ PT/OS is a guide for working with an AI assistant through a folder of notes and 
 ## Start by copying this prompt
 
 ```text
-Use https://github.com/cooperman411/plain-text-os to set up a PT/OS for me. Ask what I want AI to help me do, recommend the simplest place we can both access, then create the files for me.
+Help me incorporate this: https://github.com/cooperman411/plain-text-os into a PT/OS that fits me.
 ```
 
-Your AI should read the project and figure out the setup with you:
+Your AI should read this project and decide how it can help you set up PT/OS:
 
 1. Check that it can read the PT/OS project and create or update files.
 2. Recommend the simplest place where it can work and you can find and back up your files.
@@ -21,7 +21,7 @@ Your AI should read the project and figure out the setup with you:
 5. Ask what you want help accomplishing. Do one useful thing before building a larger system.
 6. Create only the notes or workflows you want to keep, then confirm where it put them.
 
-The AI should check which features are available in your current app, device, and plan before recommending them. For example, it might suggest ChatGPT Work or Codex, Claude Cowork, or Perplexity Computer. If you use Grok, Hermes, OpenClaw, or another agent, it should ask where you want the folder and verify that it can read and update files there.
+The best setup depends on the AI app, device, and plan you use. ChatGPT may suggest Work or Codex, Claude may suggest Cowork, and Perplexity may suggest Computer. The AI should check what is available to you before recommending one. If you use Grok, Grokbot, Hermes, OpenClaw, or another agent, it can ask where you want the folder and verify that it can read and update files there.
 
 If the AI cannot read the project or write files in a place you can access, it should say so and explain the simplest next step. It should not claim it set up PT/OS when it hasn't, or leave you with files to create by hand.
 
@@ -97,7 +97,7 @@ You can also ask your AI to look at a repository, skill, or article you found. I
 
 ## Keep your information yours
 
-Your personal files belong in your own PT/OS folder, separate from the starter project. If an online AI reads a file, its contents may be sent to that service. Decide what you are comfortable sharing, and leave out anything you do not want to share. “Not used for training” does not necessarily mean “not stored”; check the current privacy settings for your AI service.
+Your personal files belong in your own PT/OS folder, separate from the starter project. Before you connect a folder or share existing files, ask where their contents will go. If an online AI reads a file, its contents may be sent to that service. Decide what you are comfortable sharing, and leave out anything you do not want to share. “Not used for training” does not necessarily mean “not stored”; check the current privacy settings for your AI service.
 
 Keep a separate backup of your folder. The plain-text files are yours to read, edit, move, and back up.
 
