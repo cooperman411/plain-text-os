@@ -111,7 +111,7 @@ As you get more comfortable, ask your AI to add a workflow, skill, or scheduled 
 
 Your personal files belong in your own PT/OS folder, separate from the starter project. Before you connect a folder or share existing files, ask where their contents will go. If an online AI reads a file, its contents may be sent to that service. Decide what you are comfortable sharing, and leave out anything you do not want to share. “Not used for training” does not necessarily mean “not stored”; check the current privacy settings for your AI service.
 
-GitHub is optional. If you want online backup or version history, ask your AI whether a private repo makes sense. If your AI can connect to GitHub, it should explain the access and permissions, help you choose only the repo you want to use, and confirm what it can actually set up. A private repo is still online storage, so use it only if that tradeoff works for you.
+GitHub is optional. If you want a second copy online or a history of changes, a private repo may be useful, but it only works as a backup if your files are saved there and kept current. Ask your AI whether it can guide you through setup. It should explain what it can read or change and what access GitHub is asking you to grant, then let you choose only the repo you want to use. A private repo is still online storage, so use it only if that tradeoff works for you.
 
 Keep a separate backup of your folder. The plain-text files are yours to read, edit, move, and back up.
 
