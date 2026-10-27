@@ -26,7 +26,7 @@ PT-OS/
     └── weekly-blog-research.md ← one task you want to repeat
 ```
 
-**You don't fill these in by hand.** Your AI asks what you want, helps with something useful, then offers to save only the notes or task instructions you want to keep. You may need just one file. The others are examples.
+**You don't start by filling these in.** Your AI asks what you want, helps with something useful, then offers to save only the notes or task instructions you want to keep. You may need just one file. The others are examples.
 
 ## Try it
 
