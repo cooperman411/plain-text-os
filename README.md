@@ -58,7 +58,7 @@ These are examples, not required files. Create only what helps this person. Do n
 
 Before creating or changing a personal file, explain what you propose to save and where. Let the person correct it. Ask before saving sensitive information or anything they have not clearly asked you to keep. After writing, confirm what changed and verify that the file exists if you have file access.
 
-Keep personal information out of the starter framework. The person’s working PT/OS folder belongs to them.
+Keep personal information out of this reusable README. Save the person’s information in separate, clearly named files in their PT/OS folder. The person owns those files and can back them up or move them independently.
 
 ### Be clear about privacy
 
