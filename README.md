@@ -2,7 +2,7 @@
 
 Your personal AI operating framework in plain text. As simple as it gets.
 
-You don't write files or learn Markdown to use PT/OS. Tell your AI what you want help with, answer its questions, and let it organize the files.
+You don't write files or learn Markdown to use PT/OS. Tell your AI what you want help with, answer its questions, and let it organize the files. It should explain unfamiliar terms in plain language and help you accomplish something useful before building out more.
 
 PT/OS is a guide for working with an AI assistant through a folder of notes and workflows. You use it with the assistant or agent you already have.
 
