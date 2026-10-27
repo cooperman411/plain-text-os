@@ -14,7 +14,7 @@ Copy this prompt into your AI assistant:
 Read https://github.com/cooperman411/plain-text-os and set up a PT/OS personalized for me in a folder we can both access. Ask me questions and handle the files; I don't know Markdown.
 ```
 
-The repository is private right now, so your AI needs access to read it. If it can't open the link or work with files, it should tell you before setup.
+If the AI can't open the link or work with files, it should tell you before setup.
 
 The AI should help you choose a place it can work with and you can find and back up. That might be a folder on your computer, an AI workspace, or a connected drive. What works depends on the assistant and its file access.
 
