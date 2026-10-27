@@ -61,6 +61,38 @@ When I ask for this week's blog research:
 
 Your task could be something completely different: planning the week, preparing for a meeting, or keeping track of project follow-ups.
 
+## It can grow with you
+
+Start with one useful task. Add folders only when you have a reason to keep more context or repeat more kinds of work.
+
+My own plain-text system took several months to grow into a multi-workflow personal assistant and knowledge base. It now includes separate areas for different businesses, repeatable workflows, writing preferences, career objectives, personal goals, and help with online business forms.
+
+A more developed PT/OS might look like this:
+
+```text
+PT-OS/
+├── README.md
+├── personal/
+│   ├── goals.md
+│   └── working-preferences.md
+├── career/
+│   └── objectives.md
+├── businesses/
+│   ├── business-one/
+│   │   ├── overview.md
+│   │   └── workflows/
+│   │       ├── weekly-follow-ups.md
+│   │       └── meeting-request-form.md
+│   └── business-two/
+│       └── overview.md
+├── writing/
+│   └── style-guide.md
+└── workflows/
+    └── weekly-research.md
+```
+
+This is a picture of what the folder can become, not a setup checklist. For example, a form workflow can help prepare information for an online form. The AI still needs access to the form, and you review it before anything is submitted.
+
 ## What the AI should do
 
 When someone uses this guide, the AI should:
