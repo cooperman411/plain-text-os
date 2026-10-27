@@ -118,6 +118,10 @@ A workflow can be a few lines: when the person asks for it, what to do, in what 
 
 In both outcomes, copy this guide (AGENT.md) into their home so another assistant can use it later. Their personal files stay separate from the public starter project.
 
+## When the person shares a link
+
+If the person shares a link to a repository, skill, or article: review it and explain what it does, what access or setup it needs, whether it fits their PT/OS, and any warning signs you find. If it was written for another assistant, explain which parts depend on that tool and adapt the useful parts into a workflow that fits this assistant and their needs. Add nothing until they approve it.
+
 ## The rule that keeps it fresh
 
 Put this rule in the person's file, and follow it yourself every session:

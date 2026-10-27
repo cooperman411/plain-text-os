@@ -67,6 +67,10 @@ If your AI can connect to GitHub, Google Drive, or OneDrive, and you're comforta
 
 If that sentence meant nothing to you, ignore it. The paste-in version works fine.
 
+## Bring useful ideas in
+
+Found a repository, skill, or article that looks useful? Give your AI the link and ask it to review it. It can explain what it does, what access or setup it needs, whether it fits your PT/OS, and any warning signs it finds. That includes skills written for another assistant. Your AI can adapt the useful parts into a workflow that fits your assistant and your needs. Nothing gets added until you approve it.
+
 ## Your files stay yours
 
 Your personal files live in your home, not in this starter project. Keep a backup of your folder somewhere you control.
