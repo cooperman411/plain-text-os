@@ -2,48 +2,51 @@
 
 Your personal AI operating framework in plain text. As simple as it gets.
 
-You don't have to write a file or know Markdown to use PT/OS. Tell your AI what you want help with, answer its questions, and let it do the file work.
+You don't write files or learn Markdown to use PT/OS. Tell your AI what you want help with, answer its questions, and let it organize the files.
 
-PT/OS is a set of plain-text instructions and notes that helps an AI work with you over time. It is not an app. You use it with the AI assistant or agent you already have.
+PT/OS is a guide for working with an AI assistant through a folder of notes and workflows. You use it with the assistant or agent you already have.
 
-## Get started
-
-Copy this prompt into your AI assistant:
+## Start by copying this prompt
 
 ```text
-Read https://github.com/cooperman411/plain-text-os and set up a PT/OS personalized for me in a folder we can both access. Ask me questions and handle the files; I don't know Markdown.
+Use https://github.com/cooperman411/plain-text-os to set up a PT/OS for me. Ask what I want AI to help me do, recommend the simplest place we can both access, then create the files for me.
 ```
 
-If the AI can't open the link or work with files, it should tell you before setup.
+Your AI should read the project and figure out the setup with you:
 
-The AI should help you choose a place it can work with and you can find and back up. That might be a folder on your computer, an AI workspace, or a connected drive. What works depends on the assistant and its file access.
+1. Check that it can read the PT/OS project and create or update files.
+2. Recommend the simplest place where it can work and you can find and back up your files.
+3. Explain the choice in plain language and ask you to approve the location before it creates anything.
+4. Create a personal PT/OS folder separate from the starter project. It can copy this guide into your folder so another assistant can use it later.
+5. Ask what you want help accomplishing. Do one useful thing before building a larger system.
+6. Create only the notes or workflows you want to keep, then confirm where it put them.
 
-You don't need GitHub or Git to use your own PT/OS folder. The repository link is just a way to give the AI the starter instructions.
+The AI should check which features are available in your current app, device, and plan before recommending them. For example, it might suggest ChatGPT Work or Codex, Claude Cowork, or Perplexity Computer. If you use Grok, Hermes, OpenClaw, or another agent, it should ask where you want the folder and verify that it can read and update files there.
 
-## What you are building
+If the AI cannot read the project or write files in a place you can access, it should say so and explain the simplest next step. It should not claim it set up PT/OS when it hasn't, or leave you with files to create by hand.
 
-You start with the PT/OS instructions. After talking through your goals, the AI might create a few personal files:
+## Start with something you want to do
+
+The AI should ask what you want help with, one question at a time. You can say “I’m not sure yet” and talk it through. You might want help planning the week, preparing for a meeting, keeping up with client follow-ups, or finding topics for a blog.
+
+The AI should help with that task first. Then it can ask what would be useful to remember or repeat next time. It should save only details you approve. You do not need to complete a profile or fill in preset life areas.
+
+## What your folder might look like
+
+After a conversation, your personal folder might contain:
 
 ```text
-PT-OS/
-├── README.md                 ← the reusable guide for your AI
+My PT-OS/
+├── README.md                 ← guide for the AI
 ├── ABOUT-ME.md               ← useful facts and preferences you approved
 ├── CURRENT-GOALS.md          ← what you want to make progress on
 └── WORKFLOWS/
-    └── weekly-research.md    ← a task you want to repeat
+    └── weekly-research.md    ← one task you want to repeat
 ```
 
-You don't have to make these files yourself. The AI should ask what would help, do something useful, then propose the smallest set of notes worth keeping. You may need only one. You can answer questions in ordinary language and let the AI organize the files.
+You don't have to make these files yourself. This is only an example. Your AI creates what helps you and leaves out the rest.
 
-## A task can become a workflow
-
-Say you run a gardening blog and spend too long looking for topics. You might tell your AI:
-
-> I want one good topic for my blog each week. Help me find useful ideas and show me the sources.
-
-The AI asks who reads the blog and what they care about. It helps with the first search, then asks whether you want to keep the process.
-
-A saved workflow might say:
+A workflow can be a few lines:
 
 ```markdown
 # Weekly blog research
@@ -53,21 +56,19 @@ When I ask for this week's blog research:
 1. Find three timely topics for new gardeners.
 2. Link to reliable sources.
 3. Explain why each topic may interest readers.
-4. Suggest one angle. Do not write or publish the post.
+4. Suggest one angle. Leave the writing and publishing to me.
 ```
 
-You can ask for a different kind of help: plan the week, prepare for a meeting, manage project follow-ups, or organize a business process. The AI should build around your goals, not make you fit a preset system.
+## It can grow as you need it
 
-## It can grow with you
+Start with one task and add folders only when you have a reason to keep more context or repeat more kinds of work.
 
-Start with one useful task. Add folders only when you have a reason to keep more context or repeat more kinds of work.
+My own plain-text system took several months to grow into a multi-workflow personal assistant and knowledge base. It now includes different businesses, work routines, writing preferences, career objectives, personal goals, and help with online business forms.
 
-My own plain-text system took several months to grow into a multi-workflow personal assistant and knowledge base. It now includes separate areas for different businesses, repeatable workflows, writing preferences, career objectives, personal goals, and help with online business forms.
-
-A more developed PT/OS might look like this:
+A larger PT/OS might look like this:
 
 ```text
-PT-OS/
+My PT-OS/
 ├── README.md
 ├── personal/
 │   ├── goals.md
@@ -88,22 +89,22 @@ PT-OS/
     └── weekly-research.md
 ```
 
-This is an example of what the folder could become, not a checklist. A form workflow can help prepare information for an online form. The AI needs access to that form, and you review it before anything is submitted.
+This is an example of where a folder can go over time, not a checklist for getting started. A form workflow can help prepare information for an online form. The AI needs access to that form, and you review it before anything is submitted.
 
-As you get comfortable, ask your AI to create a new workflow, skill, or scheduled task. Some assistants may need you to set up the schedule separately. A saved instruction does not run by itself.
+As you get more comfortable, ask your AI to add a workflow, skill, or scheduled task. A saved instruction does not schedule itself; your AI should explain if you need to set that up separately.
 
-You can also give your AI a link to a repository, a skill, or an article you found. Ask it to explain what it does, what access it needs, and whether it fits your system. If you want to use it, ask the AI to adapt it to your needs and show you the changes before adding it. A link is not proof that something is safe or compatible.
+You can also ask your AI to look at a repository, skill, or article you found. It should explain what it does, what access it needs, and whether it fits your PT/OS. If you want to use it, have the AI adapt it to your needs and show you the changes before adding or running anything.
 
-## A few rules for the AI
+## Keep your information yours
 
-- Ask about the person's goals in a conversation, one question at a time. Don't start with a long form.
-- Check which files and tools are actually available. Be clear about the chosen storage location.
-- Help with something useful before building out the folder.
-- Don't save guesses or sensitive details without asking. Show what will be saved and where.
-- Plain-text files are easy to read and move, but an online AI may send their contents to its service. Explain that before reading personal files. “Not used for training” does not necessarily mean “not stored.” Check the service's current privacy settings.
-- Ask before sending, publishing, purchasing, deleting, submitting a form, or making other consequential changes.
-- Say what was actually done. Verify files and schedules before reporting them complete.
+Your personal files belong in your own PT/OS folder, separate from the starter project. If an online AI reads a file, its contents may be sent to that service. Decide what you are comfortable sharing, and leave out anything you do not want to share. “Not used for training” does not necessarily mean “not stored”; check the current privacy settings for your AI service.
 
-The person can answer questions, review the work, and decide what belongs in PT/OS. The AI handles the writing and organization. No Markdown knowledge needed.
+Keep a separate backup of your folder. The plain-text files are yours to read, edit, move, and back up.
+
+## For the AI assistant
+
+Use this README as the PT/OS setup guide. Check your actual access before acting. Ask about the person's goals in ordinary language, do useful work before expanding the folder, and save only information they want to keep.
+
+Use a folder structure that fits this person. Do not make empty folders or collect every detail. Explain what you plan to save and where. Verify files and schedules before saying they are ready. Ask before sending, publishing, purchasing, deleting, submitting a form, or making other consequential changes.
 
 **Teach people what they can accomplish, not which technology they’re supposed to be impressed by.**
