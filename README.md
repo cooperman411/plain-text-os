@@ -8,11 +8,13 @@ PT/OS is a set of plain-text instructions and notes that helps an AI work with y
 
 ## Get started
 
-Give your AI the PT/OS repository link and say:
+Copy this prompt into your AI assistant:
 
-> Help me set up PT/OS. First, check that you can read these instructions and tell me where you can create and update files. Then ask what I want help accomplishing.
+```text
+Read https://github.com/cooperman411/plain-text-os and set up a PT/OS personalized for me in a folder we can both access. Ask me questions and handle the files; I don't know Markdown.
+```
 
-If the repository is private, the AI needs access to it. If it cannot read the link or work with files, it should say so before setup. Do not let it claim that it has read or created something unless it has.
+The repository is private right now, so your AI needs access to read it. If it can't open the link or work with files, it should tell you before setup.
 
 The AI should help you choose a place it can work with and you can find and back up. That might be a folder on your computer, an AI workspace, or a connected drive. What works depends on the assistant and its file access.
 
