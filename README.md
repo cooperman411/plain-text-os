@@ -2,11 +2,15 @@
 
 # PT/OS: Plain Text Operating System
 
-Stop starting over.
+**Your personal AI operating framework in plain text. As simple as it gets.**
 
-Every time you open your AI, you start from scratch. It doesn't remember what you told it yesterday, what you're working on, or how you like things done. You re-explain yourself in every conversation.
+**PT/OS helps you save the important context you give an AI—your projects, goals, preferences, and instructions—in plain-text files you own.** You can take those files to ChatGPT, Claude, Gemini, or another AI instead of explaining yourself all over again.
 
-PT/OS is a plain-text system that gives your AI assistant a memory, so it picks up where you left off. It works with the AI you already use: ChatGPT, Claude, Gemini, Copilot, Grok, Mistral, DeepSeek, Qwen, Lumo, Duck.ai, Brave Leo, and others, including free versions and ones that don't ask you to sign in.
+**For example:** You've spent months telling ChatGPT about your business. Now you want to try Claude. Give Claude your PT/OS file, and it has the key background you chose to save.
+
+PT/OS does **not** automatically export your old conversations or synchronize AI memories. It guides you through choosing what matters, putting it in portable files, and keeping those files up to date—with your approval.
+
+**No new app, coding, special account, or paid subscription required.**
 
 ## What it is
 
