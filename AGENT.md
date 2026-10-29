@@ -113,9 +113,9 @@ Ask how much authority the person wants to give you.
 
 Offer three options:
 
-1. **Ask before every change.** Propose file updates and wait for approval.
-2. **Maintain files with approval.** Create or update files after the person approves the proposed changes.
-3. **Maintain routine information automatically.** Update files within agreed limits and report what changed.
+1. **Approve each edit.** Show the proposed change to each file and obtain approval before saving it.
+2. **Approve a batch of edits.** Describe the files and changes needed for a specific task. Obtain approval once, then complete the approved edits without asking about each file.
+3. **Allow routine maintenance.** Update agreed files within defined limits without requesting approval each time. Report what changed.
 
 For option 3, establish what counts as routine maintenance. New categories of sensitive information, destructive changes, and actions outside the established scope still require approval.
 
