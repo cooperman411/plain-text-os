@@ -119,3 +119,11 @@ Your AI uses the technical documentation during setup. You're welcome to read it
 PT/OS is an open project. If something doesn't work, is confusing, or could be improved, [open a GitHub issue](https://github.com/cooperman411/plain-text-os/issues). Include which AI you used, what you tried, and what happened. Corrections to the capability matrix are especially useful because AI capabilities and pricing change frequently.
 
 Please keep personal information, passwords, and private workspace files out of public issues.
+
+## License
+
+Unless otherwise noted, the original material in this repository is © 2026 [cooperman411](https://github.com/cooperman411) and is licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE.md).
+
+You may copy, adapt, redistribute, and use it commercially. Give appropriate credit, link to the license, and indicate if you made changes.
+
+Your private PT/OS documents and your own original information are not automatically licensed under CC BY 4.0 merely because you used this project. If you redistribute text copied or adapted from the repository, its attribution requirements still apply.
