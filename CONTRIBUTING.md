@@ -1,31 +1,40 @@
-# Contributing to PT/OS
+# Contributing to PT/OS Workspace
 
-Thank you for helping make PT/OS better. It improves when people who use it say what worked and what didn't.
+PT/OS Workspace improves when people report what works, what fails, and what could be clearer. You don't need to be a programmer to contribute. A useful bug report or correction is as valuable as a code change.
 
-## How to suggest something
+## Report a Problem or Suggest a Change
 
-Open an issue at https://github.com/cooperman411/plain-text-os/issues and include:
+[Open a GitHub issue](https://github.com/cooperman411/plain-text-os/issues) and describe the problem or suggestion. For setup failures, include:
 
-- What you tried
-- Which AI you used, and whether it was free or paid
-- What happened, versus what you expected
+- **Your setup:** AI product, mode or tool, storage location, and plan if it affects file access.
+- **What you tried:** The step you took and what you expected to happen.
+- **What happened:** The actual result, including a short, redacted error message if useful.
+- **What you verified:** Whether the AI could create a file, read it, edit that same file, and confirm the update.
 
-That is enough. A plain-language issue from a GitHub beginner is a good issue.
+Plain-language reports are welcome. You don't need to diagnose the cause before opening an issue.
 
-## What helps most
+## What Helps Most
 
-- **Corrections to the capability matrix.** AI plans and features change fast, so this goes out of date first. If a limit, a price, or a feature described there is wrong for your system, say so.
-- **Notes from a system not covered yet.** If you set PT/OS up on an AI that is not in the matrix, describe what worked: the home you used, the plan, and anything that surprised you.
-- **Translations.** German, Spanish, and Romanian are planned. If you can help with one, open an issue first so work does not overlap.
-- **Plain-language fixes.** If a sentence in the README or AGENT.md confused you, quote it and say what confused you. That is a real contribution.
+- **Capability corrections.** AI products and permissions change frequently. Include a link to current vendor documentation or a reproducible test, with the date and configuration. Distinguish what you tested from what a provider claims.
+- **Setup problems.** If [AGENT.md](AGENT.md) led your AI to make an incorrect assumption, skip a permission check, or claim it saved something it didn't, report the exact step.
+- **Documentation improvements.** Identify unclear wording in the [README](README.md), [agent instructions](AGENT.md), or [capability matrix](CAPABILITY-MATRIX.md). Suggest a shorter or more precise explanation when possible.
+- **Additional platforms and storage options.** Explain how the AI reads, creates, and updates persistent files. A chat history, uploaded reference file, or manual re-upload does not qualify as Workspace file maintenance.
+- **Translations.** Open an issue before starting a translation so contributors can coordinate terminology and avoid duplicate work.
 
-## Ground rules
+PT/OS One is the separate single-document project. Suggestions about paste-only or upload-only assistants belong there once its repository is available. For now, label those issues **PT/OS One** so they aren't mistaken for Workspace requirements.
 
-- Plain language. If a suggestion needs jargon to make sense, it probably does not belong here.
-- Be kind. The people using this include complete beginners. No tech-bro nonsense.
-- Do not paste your personal PT/OS files into an issue. Describe what happened, not what is in your files.
-- Do not share API keys, passwords, or anything private. If you pasted something by mistake, say so in the issue and it can be removed.
+## Propose an Edit
 
-## What happens next
+You can submit a pull request if you're comfortable with GitHub. Keep changes focused, explain the reason for them, and update related references when necessary.
 
-The guy who came up with this reads the issues and folds accepted suggestions into the README, AGENT.md, or matrix. There is no formal review board and no promised timeline. If a suggestion is not used, it is not a judgment on the person who made it.
+For capability claims, include sources and identify any limits you could not verify. Keep product requirements consistent across the README, AGENT.md, and capability matrix.
+
+Please don't add speculative features, complicated folder structures, or new dependencies simply because they're possible. Workspace should grow in response to real needs.
+
+## Privacy and Conduct
+
+Assume that issues and pull requests are public. Never include personal workspace files, private conversations, passwords, access tokens, or API keys. Replace sensitive details in screenshots and logs before posting. If a secret is exposed, revoke or rotate it promptly; deleting a comment alone might not make it safe.
+
+Be direct and respectful. The project is intended for people with different levels of technical experience, and useful criticism is welcome. Explain what needs to change and why.
+
+There's no formal review schedule. Some suggestions may need more testing before they're incorporated.
