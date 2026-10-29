@@ -21,7 +21,7 @@ Plain-language reports are welcome. You don't need to diagnose the cause before 
 - **Additional platforms and storage options.** Explain how the AI reads, creates, and updates persistent files. A chat history, uploaded reference file, or manual re-upload does not qualify as Workspace file maintenance.
 - **Translations.** Open an issue before starting a translation so contributors can coordinate terminology and avoid duplicate work.
 
-PT/OS One is the separate single-document project. Suggestions about paste-only or upload-only assistants belong there once its repository is available. Until then, include **PT/OS One** in the issue title so the request isn't mistaken for a Workspace requirement.
+PT/OS One is the separate [single-document project](https://github.com/cooperman411/plain-text-os-one). Suggestions about paste-only or upload-only assistants belong in the [PT/OS One issue tracker](https://github.com/cooperman411/plain-text-os-one/issues), rather than the Workspace issue tracker.
 
 ## Propose an Edit
 
