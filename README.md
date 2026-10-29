@@ -6,6 +6,15 @@ PT/OS Workspace gives your AI a collection of files it can read, organize, and m
 
 PT/OS stands for Plain Text Operating System. It starts with a few ordinary files and grows as your needs change. Your AI handles the organization and maintenance, so you can concentrate on the work.
 
+## Which PT/OS Version Should You Use?
+
+PT/OS comes in two versions:
+
+- **PT/OS Workspace (this repository):** An AI-managed collection of files for ongoing projects, priorities, and workflows. Your AI needs access to persistent storage where it can read and update files.
+- **[PT/OS One](https://github.com/cooperman411/plain-text-os-one):** A single portable document you can paste into an AI conversation or upload where supported. It works without file-management tools.
+
+Choose the version that fits how you use AI. Neither requires you to start with the other.
+
 ## What Can It Do?
 
 Suppose you're running a business, looking for a job, and managing several personal projects. PT/OS Workspace can help your AI keep those activities organized without requiring you to explain everything again each time you start a conversation.
@@ -101,12 +110,6 @@ I spent months building my own AI operating system to help manage businesses, re
 That experience led to PT/OS Workspace. I wanted to make it possible for someone to build a useful personal AI system through conversation, without having to learn programming or spend weeks configuring software.
 
 The system can be sophisticated. Using it should remain straightforward.
-
-## PT/OS One: A Simpler Alternative
-
-PT/OS One is a companion project for people who want their personal AI information in a single portable document. You can paste that document into another AI or upload it, even when the assistant doesn't have tools for managing files.
-
-PT/OS Workspace is designed for ongoing work involving multiple files, projects, and workflows. Both approaches keep your information under your control.
 
 ## Documentation and Contributions
 
