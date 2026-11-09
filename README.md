@@ -2,9 +2,7 @@
 
 **Your personal AI operating system. Built around you.**
 
-PT/OS Workspace gives your AI a collection of files it can read, organize, and maintain. These files contain your projects, priorities, preferences, and instructions, allowing your AI to continue working with information you've already provided. You control what gets saved and where it lives.
-
-PT/OS stands for Plain Text Operating System. It starts with a few ordinary files and grows as your needs change. Your AI handles the organization and maintenance, so you can concentrate on the work.
+PT/OS Workspace gives your AI a set of plain text files it can read, organize, and maintain, holding your projects, priorities, preferences, and instructions. PT/OS stands for Plain Text Operating System, and it starts with a few ordinary files and grows as your needs change. You control what gets saved and where it lives, and your AI handles the organizing so you can concentrate on the work.
 
 ## Start
 
