@@ -1,21 +1,25 @@
 # PT/OS Workspace
 
-PT/OS stands for Plain Text Operating System. The Workspace version keeps your projects, priorities, and recurring workflows in files an AI assistant can read and update. You choose what to save and where to store it.
+**Your personal AI operating system. Built around you.**
+
+PT/OS Workspace gives your AI a collection of files it can read, organize, and maintain. These files contain your projects, priorities, preferences, and instructions, allowing your AI to continue working with information you've already provided. You control what gets saved and where it lives.
+
+PT/OS stands for Plain Text Operating System. It starts with a few ordinary files and grows as your needs change. Your AI handles the organization and maintenance, so you can concentrate on the work.
 
 ## Start
 
 Paste this prompt into your AI assistant.
 
 ```text
-Help me set up PT/OS Workspace using this repository.
+Help me set up PT/OS Workspace using this repository:
 https://github.com/cooperman411/plain-text-os
-
-Read AGENT.md and check whether you can read and update files in persistent storage. Start with one task I want help with.
 ```
 
-If your assistant cannot open the repository, paste the contents of [AGENT.md](AGENT.md) into the conversation. Ask the assistant to follow those instructions.
+Your AI will check which file-management tools it can use, help you choose where to store your information, and guide you through setup. It starts by asking what you want to accomplish, then helps you with something useful before building a larger system.
 
-Your assistant needs tools that can read, create, and update files in storage it can access again later. Available tools depend on your assistant, plan, and permissions. See the [Capability Matrix](CAPABILITY-MATRIX.md) for examples.
+**PT/OS Workspace requires an AI that can read, create, and update files in persistent storage.** This includes some configurations of ChatGPT, Claude, Microsoft Copilot, Gemini, and AI agents such as Hermes or OpenClaw. Available capabilities depend on your AI, plan, tools, and permissions.
+
+If your AI cannot open the repository link, copy the contents of [AGENT.md](AGENT.md) into your conversation and ask it to follow those instructions.
 
 ## Which PT/OS Version Should You Use?
 
@@ -119,7 +123,15 @@ PT/OS is an open project. If something doesn't work, is confusing, or could be i
 
 Please keep personal information, passwords, and private workspace files out of public issues.
 
-## Public Projects
+## License
+
+Unless otherwise noted, the original material in this repository is © 2026 [cooperman411](https://github.com/cooperman411) and is licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE.md).
+
+You may copy, adapt, redistribute, and use it commercially. Give appropriate credit, link to the license, and indicate if you made changes.
+
+Your private PT/OS documents and your own original information are not automatically licensed under CC BY 4.0 merely because you used this project. If you redistribute text copied or adapted from the repository, its attribution requirements still apply.
+
+## Other Public Projects
 
 - [AteBit.Tech](https://github.com/cooperman411/AteBitTech)
 - [AI Sales Prospecting & Outreach](https://github.com/cooperman411/ai-sales-prospecting-outreach)
@@ -128,11 +140,3 @@ Please keep personal information, passwords, and private workspace files out of 
 - [Hotel Revenue Management Toolkit](https://github.com/cooperman411/hotel-revenue-management)
 - [PT/OS One](https://github.com/cooperman411/plain-text-os-one)
 - [PT/OS Workspace](https://github.com/cooperman411/plain-text-os)
-
-## License
-
-Unless otherwise noted, the original material in this repository is © 2026 [cooperman411](https://github.com/cooperman411) and is licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE.md).
-
-You may copy, adapt, redistribute, and use it commercially. Give appropriate credit, link to the license, and indicate if you made changes.
-
-Your private PT/OS documents and your own original information are not automatically licensed under CC BY 4.0 merely because you used this project. If you redistribute text copied or adapted from the repository, its attribution requirements still apply.
