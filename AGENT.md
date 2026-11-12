@@ -23,7 +23,7 @@ Determine whether you can:
 - Organize files into folders or equivalent collections when needed.
 - Verify that changes were saved successfully.
 
-Storage may be a local folder, cloud drive, private GitHub repository, agent workspace, or another supported location. Google Docs and similar document systems are acceptable when reliable read/write access is available.
+Use only the storage method and exact destination the person chooses. Treat the public PT/OS starter repository as read-only. Setup and maintenance never write files or create commits there.
 
 Use `CAPABILITY-MATRIX.md` as a reference when evaluating options. Its information may be outdated. Actual tool capabilities and verified access take precedence.
 
@@ -62,36 +62,13 @@ Sending communications, publishing material, making purchases, connecting new ac
 
 ### Step 1: Identify the Available Tools
 
-Inspect the current environment and determine which persistent file-management capabilities are available.
+Ask where the person wants to keep their workspace if they have not already chosen a location. Check the capabilities needed for their choice. Offer storage options only if they ask for help choosing. Once they choose, discuss and use that method. Discuss a private GitHub repository or commits only if they choose GitHub for their own storage.
 
-Relevant options may include:
+### Step 2: Confirm the Workspace Location
 
-- Local filesystem access through a desktop AI application.
-- Google Drive, OneDrive, or another supported cloud service.
-- GitHub repository access with permission to read and commit changes.
-- Persistent storage provided by an AI agent or workspace.
-- An existing document system that supports reliable reading and editing.
+Confirm the exact folder or other destination before creating files. For local storage, use a folder the person can easily find, open, and back up. An app's current working directory or internal workspace does not count as the chosen folder unless the person selects it.
 
-Explain the practical options in ordinary language.
-
-If the person already uses a compatible location, prefer that over introducing another service. Do not assume that a GitHub user wants to use GitHub for PT/OS.
-
-### Step 2: Choose the Workspace Location
-
-Help the person select a location that meets these requirements:
-
-1. Their AI can read and update the information.
-2. The information persists across sessions.
-3. The person can access and back up their files.
-4. The files can be exported or moved to another system.
-
-Explain any important limitations, including privacy considerations, synchronization requirements, and dependence on a particular service.
-
-Obtain approval for the location and any required connections.
-
-Confirm that you can perform the necessary file operations. When practical, verify access by creating and reading back an approved initial file.
-
-Do not create a workspace in temporary storage and describe it as persistent.
+Verify that the destination persists across sessions and supports reading and updating files. When practical, create and read back an approved initial file in that destination. If access is unavailable, explain how the person can grant access to the chosen location. Ask before using a different destination. Never silently save to another location.
 
 ### Step 3: Identify One Useful Task
 
@@ -146,7 +123,7 @@ The entry document must explain:
 - Which files should be read at the beginning of a session.
 - How the person wants the AI to work.
 - What changes the AI is authorized to make.
-- How updates should be saved and verified.
+- The chosen save method and exact destination, and how updates should be verified. Use relative paths for references within the workspace.
 
 Keep this document self-contained. Another AI must be able to understand the workspace without accessing the original PT/OS GitHub repository.
 
@@ -269,7 +246,7 @@ When an update is authorized:
 1. Read the latest version of each affected file.
 2. Make the smallest changes necessary.
 3. Preserve unrelated content.
-4. Save the updated files.
+4. Save the updated files only in the currently approved destination.
 5. Read back or otherwise verify the changes.
 6. Report which files changed and identify any unresolved problems.
 
@@ -334,10 +311,10 @@ Do not alter working integrations merely to make the workspace resemble another 
 When asked to move the workspace to another location or service:
 
 - Identify the files and dependencies that must move.
-- Confirm the destination supports the required operations.
+- Confirm the person’s exact destination and verify read/write access from the app or project they plan to use. An attachment that can be read may still lack write access.
 - Preserve content, structure, and operating instructions where practical.
 - Explain format conversions and integrations that may need adjustment.
-- Verify the transferred files before recommending deletion of the originals.
+- Read back the transferred files and update the entry document with the new destination. Use the new location for future saves and confirm the path with the person.
 
 Keep the original available until the person approves its removal.
 
@@ -347,7 +324,7 @@ The person's workspace is separate from the public PT/OS repository.
 
 Use private storage unless the person explicitly chooses otherwise.
 
-Never publish personal workspace contents to a public repository without clear authorization.
+Use the approved private destination for personal workspace contents. Any separate request to publish material requires explicit authorization.
 
 Avoid saving passwords, API keys, access tokens, and other secrets in ordinary workspace documents. Recommend appropriate secure storage when necessary.
 
