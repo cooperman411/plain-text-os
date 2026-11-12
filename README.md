@@ -9,15 +9,19 @@ PT/OS Workspace gives your AI a set of plain text files it can read, organize, a
 Paste this prompt into your AI assistant.
 
 ```text
-Help me set up PT/OS Workspace using this repository:
+Help me set up PT/OS Workspace. Read and follow AGENT.md:
 https://github.com/cooperman411/plain-text-os
+Start with what matters to me, then interview me one question at a time
+to build my personal wiki across the areas I choose.
 ```
 
-Your AI will check which file-management tools it can use, help you choose where to store your information, and guide you through setup. It starts by asking what you want to accomplish, then helps you with something useful before building a larger system.
+Your AI will check whether it can save and update files where you want to keep them. Start with a real priority, then cover other areas that matter to you, such as home, projects, routines, and how you want the AI to work. You can share existing conversations or notes to avoid repeating yourself.
 
 **PT/OS Workspace requires an AI that can read, create, and update files in persistent storage.** This includes some configurations of ChatGPT, Claude, Microsoft Copilot, Gemini, and AI agents such as Hermes or OpenClaw. Available capabilities depend on your AI, plan, tools, and permissions.
 
 If your AI cannot open the repository link, copy the contents of [AGENT.md](AGENT.md) into your conversation and ask it to follow those instructions.
+
+Say **skip**, **later**, **checkpoint**, **pause**, or **continue** as you go. At a checkpoint, your AI tells you which files it saved, what's open, and how to pick up from `START-HERE.md`.
 
 ## Which PT/OS Version Should You Use?
 
