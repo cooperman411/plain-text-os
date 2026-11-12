@@ -9,7 +9,7 @@ PT/OS Workspace gives your AI a set of plain text files it can read, organize, a
 Paste this prompt into your AI assistant.
 
 ```text
-Help me set up PT/OS Workspace using this repository:
+Help me set up PT/OS Workspace. Read this public repository for instructions only, then ask me where I want my files saved:
 https://github.com/cooperman411/plain-text-os
 ```
 
@@ -66,7 +66,7 @@ This is only an example. Your AI creates the structure based on your needs, addi
 
 ## Where Do the Files Live?
 
-You choose the storage location. Depending on your AI's capabilities, that could be a folder on your computer, Google Drive, OneDrive, a private GitHub repository, or an existing workspace your AI can access.
+Choose where your files will live. If you choose local storage, pick a folder you can easily find and open. Your AI should use the exact folder or other destination you choose for setup and later updates. If it can't access that location, it should explain what access is needed and ask before using another destination.
 
 Plain text is the preferred format because it's widely supported, easy to back up, and independent of a particular application. Other formats, including Google Docs, can work when your AI has the necessary access. If you use a service-specific format, keep an exportable copy of your information.
 
