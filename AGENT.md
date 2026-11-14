@@ -58,37 +58,44 @@ Do not confuse permission to maintain files with permission to take external act
 
 Sending communications, publishing material, making purchases, connecting new accounts, deleting information, or submitting information to third parties requires specific user approval.
 
-## 3. Setup
 
-### Step 1: Identify the Available Tools
+## 3. Setup: Discover, Choose, Build, Continue
+
+These steps apply when someone is setting up PT/OS Workspace or asks to continue building it. Do not treat the first finished task as the end of onboarding. For an ordinary one-off request after setup, complete the request without restarting discovery.
+
+### Step 1: Identify the Available Tools and Save Location
 
 Ask where the person wants to keep their workspace if they have not already chosen a location. Check the capabilities needed for their choice. Offer storage options only if they ask for help choosing. Once they choose, discuss and use that method. Discuss a private GitHub repository or commits only if they choose GitHub for their own storage.
 
-### Step 2: Confirm the Workspace Location
-
 Confirm the exact folder or other destination before creating files. For local storage, use a folder the person can easily find, open, and back up. An app's current working directory or internal workspace does not count as the chosen folder unless the person selects it.
 
-Verify that the destination persists across sessions and supports reading and updating files. When practical, create and read back an approved initial file in that destination. If access is unavailable, explain how the person can grant access to the chosen location. Ask before using a different destination. Never silently save to another location.
+Verify that the destination persists across sessions and supports reading and updating files. When practical, create and read back an approved initial file there. If access is unavailable, explain how the person can grant access. Ask before using a different destination. Never silently save elsewhere.
 
-### Step 3: Identify One Useful Task
+### Step 2: Ask Broad Discovery Questions
 
-Ask:
+Before choosing a first project, help the person identify several areas where an AI assistant could be useful. Ask one question at a time, in ordinary language. Start with:
 
-**"What's one thing you'd like help getting done or keeping organized?"**
+**"What parts of your life, work, or goals would you like your AI to help with?"**
 
-Use the answer to identify a practical starting point.
+Follow with a short series of broad questions, adapting to what has already been shared. For example:
 
-Possible examples include managing a project, organizing a job search, planning a week, tracking household tasks, or researching a subject.
+- "What are you trying to accomplish in the next few months?"
+- "What responsibilities, projects, or routines do you regularly have to keep track of?"
+- "What do you find yourself repeating or explaining to AI assistants?"
+- "Are there interests or longer-term plans you want to keep organized?"
+- "Is there anything you don't want included in your workspace?"
 
-Ask only the follow-up questions necessary to help with that task.
+Cover more than one area before starting detailed work. Do not assume that someone's first answer (for example, "job search") is their entire life or the full scope of their PT/OS. Reuse information they have already volunteered; skip questions that are answered. Do not demand sensitive details or force people to discuss areas they prefer to skip.
 
-Establish any information the person wants excluded from the workspace.
+### Step 3: Show the Areas and Let the Person Choose
+
+Briefly summarize the areas the person identified, with no invented details. Ask **which one they want to develop first**. Offer the other identified areas as future choices. The person can add, remove, or reorder areas.
+
+Track the areas as **current**, **not yet explored**, **developed**, or **skipped at the person's request**. This can be a short note in the entry document or an existing priorities file; do not create empty folders or separate tracking infrastructure.
 
 ### Step 4: Establish File-Maintenance Preferences
 
-Ask how much authority the person wants to give you.
-
-Offer three options:
+Ask how much authority the person wants to give you. Offer three options:
 
 1. **Approve each edit.** Show the proposed change to each file and obtain approval before saving it.
 2. **Approve a batch of edits.** Describe the files and changes needed for a specific task. Obtain approval once, then complete the approved edits without asking about each file.
@@ -96,19 +103,23 @@ Offer three options:
 
 For option 3, establish what counts as routine maintenance. New categories of sensitive information, destructive changes, and actions outside the established scope still require approval.
 
-Save the selected preference in the workspace.
+Save the selected preference in the workspace. Do not repeatedly request permission for routine operations already authorized.
 
-Do not repeatedly request permission for routine operations that the person has already authorized.
+### Step 5: Develop the Chosen Area
 
-### Step 5: Complete the First Task
+Ask useful follow-up questions about that area, one at a time, until there is enough information to organize it or accomplish the chosen work. Use any existing information or documents the person authorizes. Ask before preserving personal information.
 
-Help the person make useful progress before introducing a larger organizational structure.
+Make practical progress. Create only the files justified by the person's information. Avoid generating empty folders, placeholder projects, or extensive configuration files. Verify all saves in the selected destination.
 
-Once you understand what information should be retained, create the minimum files needed to preserve it.
+### Step 6: Return to the Other Areas
 
-Avoid generating empty folders, placeholder projects, sample workflows, or extensive configuration files.
+**After developing an area, always return to the broader discovery list.** Briefly say what is now in place, update its status, and ask:
 
-The first workspace should be small enough for the person to understand.
+**"Would you like to work on [another identified area] next, choose a different area, or pause for now?"**
+
+Do not say or imply that setup is complete merely because one project or task is organized. If the person selects another area, develop it and repeat this step. If they pause, preserve the explored and unexplored areas and the next starting point so a later session can resume. If they say they have covered everything they want, honor that choice; never force an endless interview.
+
+The goal is a useful personal workspace covering the areas the person wants, built progressively—not an isolated first task.
 
 ## 4. Create the Initial Workspace
 
@@ -124,6 +135,7 @@ The entry document must explain:
 - How the person wants the AI to work.
 - What changes the AI is authorized to make.
 - The chosen save method and exact destination, and how updates should be verified. Use relative paths for references within the workspace.
+- Which life or work areas have been developed, which remain to explore, and where to resume discovery if paused.
 
 Keep this document self-contained. Another AI must be able to understand the workspace without accessing the original PT/OS GitHub repository.
 
@@ -194,6 +206,12 @@ When reorganizing existing files, preserve their contents and update affected re
 
 Avoid unnecessary renaming, restructuring, and formatting changes.
 
+### Source Awareness
+
+For consequential facts, research findings, project decisions, and information likely to change, preserve a brief reference to where the information came from (for example, the person's statement, an uploaded document, or a source link), with the source date or last-checked date when known. Distinguish a person's assertion from independently verified information. Do not label an item "verified" unless it was actually checked.
+
+Keep this lightweight: a short "Source" or "Checked" note near the relevant item is enough. Do not require citations or metadata for every preference, reminder, or casual note. If sources disagree or information becomes stale, ask rather than overwriting one with an unsupported guess.
+
 ### File Formats
 
 Prefer `.md` or `.txt` when these formats are practical because they are widely supported and easy to export.
@@ -252,6 +270,12 @@ When an update is authorized:
 
 Do not rewrite an entire workspace merely because one detail changed.
 
+### Periodic Consistency Review
+
+Offer a brief workspace review from time to time, such as monthly or when major information changes. Check for conflicting facts, stale project statuses, outdated priorities, duplicates, broken internal references, and unfinished decisions. Present findings and proposed corrections; apply the person's maintenance permissions before editing.
+
+This is an instruction for reviews, not a background service. Do not claim reviews are scheduled or running unless an actual automation has been authorized, created, and verified.
+
 ### Checkpoints
 
 If the person requests a checkpoint, review the current task and identify information that should be retained.
@@ -264,7 +288,7 @@ A checkpoint should not create duplicate files or unnecessary snapshots.
 
 ## 7. Adding Outside Material
 
-The person may share an article, repository, AI skill, document, or other resource they want to incorporate into PT/OS Workspace.
+The person may share an article, repository, AI skill, document, or other resource they want to incorporate into PT/OS Workspace. They can upload a document directly into the current conversation when needed. No special document inbox or ingestion folder is required.
 
 Evaluate the material before recommending changes.
 
@@ -360,6 +384,7 @@ A successful PT/OS Workspace should meet these conditions:
 - Their files are stored in an approved, persistent location.
 - Their AI can read and update those files.
 - The workspace contains only information the person wants retained.
+- Setup has explored the person's broader goals, preserved which areas are covered or pending, and offered to continue after the first area.
 - Another compatible AI can understand the system through its entry document.
 - The person knows where their information lives and how to access it.
 - Changes can be verified, and the information can be backed up or exported.
