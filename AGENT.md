@@ -71,27 +71,39 @@ Confirm the exact folder or other destination before creating files. For local s
 
 Verify that the destination persists across sessions and supports reading and updating files. When practical, create and read back an approved initial file there. If access is unavailable, explain how the person can grant access. Ask before using a different destination. Never silently save elsewhere.
 
-### Step 2: Ask Broad Discovery Questions
+Before collecting personal onboarding answers, establish permission to preserve those answers in the chosen location. Permission to record onboarding answers does not authorize unrelated maintenance or external actions. If permission is declined, explain that the answers cannot yet be saved for future sessions; do not claim they will persist.
 
-Before choosing a first project, help the person identify several areas where an AI assistant could be useful. Ask one question at a time, in ordinary language. Start with:
+### Step 2: Complete and Record Broad Discovery (Questions 1–13)
 
-**"What parts of your life, work, or goals would you like your AI to help with?"**
+**Complete broad onboarding before asking for the first task or diving into a particular subject.** Ask the following questions one at a time, using plain language:
 
-Follow with a short series of broad questions, adapting to what has already been shared. For example:
+1. What would you like your AI assistant to help you with in your life? Think broadly—work, personal responsibilities, projects, interests, or anything else.
+2. What do you do for work, or what is your current professional situation?
+3. What personal or household responsibilities would you like help managing?
+4. What are your most important goals over the next 3–6 months?
+5. What longer-term goals or plans are you working toward?
+6. What projects are you currently working on, either professionally or personally?
+7. What hobbies, interests, or subjects do you enjoy or want to learn more about?
+8. What recurring tasks, routines, or responsibilities take up your time?
+9. What tools, apps, documents, or organizational systems do you currently use to manage your work and personal life?
+10. What information do you frequently find yourself repeating or explaining to AI assistants?
+11. How would you prefer your AI assistant to work with you? For example, should it be proactive, ask before taking action, challenge your thinking, or primarily follow instructions?
+12. Is there anything about your life or work that you want your AI to understand, but that we haven't covered?
+13. Is there any information you don't want included in your PT/OS?
 
-- "What are you trying to accomplish in the next few months?"
-- "What responsibilities, projects, or routines do you regularly have to keep track of?"
-- "What do you find yourself repeating or explaining to AI assistants?"
-- "Are there interests or longer-term plans you want to keep organized?"
-- "Is there anything you don't want included in your workspace?"
+These questions explore the person's wider context. If an answer mentions a particular task (for example, a job search), **record it, but do not start that task yet**. Continue through all 13 questions unless they were already answered or the person chooses to skip them. Do not turn this into an interrogation: respect brief answers, adapt naturally, and avoid unnecessary follow-up questions about a single topic at this stage.
 
-Cover more than one area before starting detailed work. Do not assume that someone's first answer (for example, "job search") is their entire life or the full scope of their PT/OS. Reuse information they have already volunteered; skip questions that are answered. Do not demand sensitive details or force people to discuss areas they prefer to skip.
+**Record the substance of each answer for future reference**, not just the names of the areas mentioned. Preserve relevant goals, active projects, responsibilities, systems, work preferences, and exclusions. Mark each question answered, already known, or skipped at the person's request; do not invent details. Use an appropriate existing context document or a small `ABOUT-ME.md` file in the person's approved workspace; do not create a questionnaire database or new inbox folder. Confirm the intended information is approved for saving.
 
-### Step 3: Show the Areas and Let the Person Choose
+Save the answers progressively or in a single approved batch to the exact chosen location and verify what was saved. If the person pauses during discovery, save approved answers and a short indication of which broad questions remain; resume those questions on the next setup session rather than starting over. A conversation containing answers is not itself proof of a persistent save.
 
-Briefly summarize the areas the person identified, with no invented details. Ask **which one they want to develop first**. Offer the other identified areas as future choices. The person can add, remove, or reorder areas.
+### Step 3: Choose a First Task Only After Discovery Is Complete (Question 14)
 
-Track the areas as **current**, **not yet explored**, **developed**, or **skipped at the person's request**. This can be a short note in the entry document or an existing priorities file; do not create empty folders or separate tracking infrastructure.
+**Only after questions 1–13 are answered, previously covered, or intentionally skipped, and the approved answers are saved,** summarize the main areas identified. Then ask question 14:
+
+**"Looking at everything we've discussed, what would you like to work on or build first?"**
+
+Let the person choose a concrete task or project, including something not mentioned during discovery. Keep their broad answers intact. Track the selected area as **current** and other areas as **not yet explored**, **developed**, or **skipped at the person's request** in a concise entry or priorities file. If saving is blocked, explain what remains unsaved instead of silently treating setup as complete.
 
 ### Step 4: Establish File-Maintenance Preferences
 
@@ -135,7 +147,7 @@ The entry document must explain:
 - How the person wants the AI to work.
 - What changes the AI is authorized to make.
 - The chosen save method and exact destination, and how updates should be verified. Use relative paths for references within the workspace.
-- Which life or work areas have been developed, which remain to explore, and where to resume discovery if paused.
+- Which broad onboarding questions have been answered and saved, which remain if onboarding is paused, which areas have been developed or remain to explore, and where to resume.
 
 Keep this document self-contained. Another AI must be able to understand the workspace without accessing the original PT/OS GitHub repository.
 
