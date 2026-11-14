@@ -13,7 +13,7 @@ Help me set up PT/OS Workspace. Read this public repository for instructions onl
 https://github.com/cooperman411/plain-text-os
 ```
 
-Your AI will check which file-management tools it can use, help you choose where to store your information, and guide you through setup. It asks a few broad questions about your life, work, interests, and goals, then shows the areas you've identified and lets you choose which to work on first. After developing that area, it asks which one to explore next. You can pause whenever you want, and it keeps track of where to resume.
+Your AI will check which file-management tools it can use, help you choose where to store your information, and guide you through setup. It asks a full set of broad questions about your life, work, interests, and goals, **one at a time**, and saves your approved answers for future reference. Only after those questions are covered does it ask what specific thing you want to build or do first. After developing that area, it asks which one to explore next. You can pause whenever you want, and it keeps track of where to resume.
 
 **PT/OS Workspace requires an AI that can read, create, and update files in persistent storage.** This includes some configurations of ChatGPT, Claude, Microsoft Copilot, Gemini, and AI agents such as Hermes or OpenClaw. Available capabilities depend on your AI, plan, tools, and permissions.
 
