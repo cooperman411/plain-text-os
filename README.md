@@ -13,7 +13,7 @@ Help me set up PT/OS Workspace. Read this public repository for instructions onl
 https://github.com/cooperman411/plain-text-os
 ```
 
-Your AI will check which file-management tools it can use, help you choose where to store your information, and guide you through setup. It starts by asking what you want to accomplish, then helps you with something useful before building a larger system.
+Your AI will check which file-management tools it can use, help you choose where to store your information, and guide you through setup. It asks a few broad questions about your life, work, interests, and goals, then shows the areas you've identified and lets you choose which to work on first. After developing that area, it asks which one to explore next. You can pause whenever you want, and it keeps track of where to resume.
 
 **PT/OS Workspace requires an AI that can read, create, and update files in persistent storage.** This includes some configurations of ChatGPT, Claude, Microsoft Copilot, Gemini, and AI agents such as Hermes or OpenClaw. Available capabilities depend on your AI, plan, tools, and permissions.
 
@@ -40,7 +40,7 @@ Your workspace can include:
 - **Reference material:** Information, research, and documents you want to reuse.
 - **Preferences:** How you like your AI to communicate, make recommendations, and handle tasks.
 
-Your AI reads the relevant files when you need help and updates them as circumstances change. You can also move your files to another compatible AI assistant without rebuilding your entire system.
+Your AI reads the relevant files when you need help and updates them as circumstances change. For important facts and decisions, it can keep brief notes about the source and when the information was checked. You can also move your files to another compatible AI assistant without rebuilding your entire system.
 
 ## What Does a Workspace Look Like?
 
@@ -87,7 +87,7 @@ You approve any changes before they're added. This gives you a practical way to 
 
 ## Keeping Your Workspace Current
 
-Your AI can maintain task lists, update project information, record decisions, and revise workflows as your needs change. You decide how much authority it has, whether that means approving every update or allowing routine maintenance within established limits.
+Your AI can maintain task lists, update project information, record decisions, and revise workflows as your needs change. It can also help review your workspace for stale or conflicting information when asked. You decide how much authority it has, whether that means approving every update or allowing routine maintenance within established limits.
 
 Each workspace includes instructions that help another AI understand how the files are organized and how you prefer to work. If you switch AI assistants, give the new one access to your files and those instructions. It can continue working with your existing information, provided it has compatible tools.
 
