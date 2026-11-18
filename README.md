@@ -19,6 +19,10 @@ Your AI will check which file-management tools it can use, help you choose where
 
 If your AI cannot open the repository link, copy the contents of [AGENT.md](AGENT.md) into your conversation and ask it to follow those instructions.
 
+## Using a local copy
+
+You can use the **Start** prompt without installing anything. If your AI cannot open GitHub, use **Code → Download ZIP** to save the repository, then provide `README.md`, `AGENT.md`, and any referenced guides to your AI. Your personal workspace should be created only in the private location you choose, never inside this public starter repository.
+
 ## Which PT/OS Version Should You Use?
 
 PT/OS comes in two versions:
@@ -136,5 +140,6 @@ Your private PT/OS documents and your own original information are not automatic
 - [AI Social Publishing for Muse](https://github.com/cooperman411/ai-social-publishing)
 - [Hotel Group Sourcing Skill](https://github.com/cooperman411/hotel-group-rfp)
 - [Hotel Revenue Management Toolkit](https://github.com/cooperman411/hotel-revenue-management)
+- [Job Search Simplified](https://github.com/cooperman411/job-search-simplified)
 - [PT/OS One](https://github.com/cooperman411/plain-text-os-one)
 - [PT/OS Workspace](https://github.com/cooperman411/plain-text-os)
